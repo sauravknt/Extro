@@ -1,0 +1,20 @@
+.icons-main{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-items:s;
+    gap: 5px;
+    margin-top: 700px;
+   margin-bottom: 40px;
+   
+}
+
+.icon-item{
+    display:table-column;
+    column-count: 8;
+}
+@media(max-width:708.021px){
+    .icons-main{
+       display: block;
+    }
+}

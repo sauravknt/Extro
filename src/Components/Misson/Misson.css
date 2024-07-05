@@ -1,0 +1,55 @@
+.misson{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin-bottom: 90px;
+}
+.misson-1{
+  flex-basis: 40%;
+  margin: 20px;
+}
+.misson-2{
+  flex-basis: 50%;
+}
+.misson-img{
+  width: 110%;
+  border-radius: 10px;
+}
+.misson-img:hover{
+transform: scale(1.05);
+transition: 0.4s;
+}
+.misson-1 b{
+  align-items: center;
+     font-size: 30px;
+     color: rgb(36, 94, 94);
+     font-family: Monospace;
+     border-bottom: 1px solid red;
+     text-align: center;
+}
+.misson-1 p{
+  color: #676767;
+  margin-bottom: 20px;
+  line-height: 1.6;
+  font-family: serif;
+  font-size: 20px;
+  margin-top: 50px;
+  text-align: center;
+}
+/*media*/
+@media(max-width:708.021px){
+  .misson{
+    flex-direction: column;
+  }
+  .misson-1{
+  flex-basis: 90%;
+  margin: 20px;
+  }
+  .misson-2{
+flex-basis: 100%;
+  }
+  .misson-img{
+    width: 90%;
+  }
+}

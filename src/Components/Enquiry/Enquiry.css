@@ -1,0 +1,81 @@
+.eneurary-img{
+    width: 100%;
+    margin-top: 65px;
+}
+.enquiry{
+    margin: 80px auto;
+    max-width: 90%;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+.enquiry-col{
+    flex-basis: 44%;
+    color: #676767;
+    padding-bottom: 40px;
+}
+
+.enquiry-col h4{
+    margin-bottom: 20px;
+    color: rgb(204, 186, 82);
+    font-family: oblique;
+}
+.enquiry-col h2{
+    margin-bottom: 20px;
+    color: rgb(20, 20, 19);
+    font-family: oblique;
+}
+.enquiry-col p{
+    margin-bottom: 20px;
+    font-family: oblique;
+}
+.enquiry-col ul li{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+.enquiry-col ul li img{
+    width: 25px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.enquiry form input,  form textarea{
+    display: block;
+    width: 100%;
+    background: #ebecfe;
+    padding: 15px;
+    border: 0;
+    outline: 0;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    resize: none;
+}
+button{
+    padding: 15px;
+    background: #57433c;
+    color: #ebecfe;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 30px;
+}
+iframe{
+    width: 100%;
+    outline: none;
+}
+/*media*/
+@media(max-width:708.021px){
+    .eneurary-img{
+        width: 100%;
+        margin-top: 55px;
+    }
+    .enquiry{
+        display: block;
+    }
+    .enquiry-col{
+        padding: 20px;
+    }
+}

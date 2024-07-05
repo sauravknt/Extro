@@ -1,0 +1,60 @@
+.proccess-main{
+    margin-bottom: 50px;
+    margin-top: 150px;
+
+  }
+  .proccess{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .proccess-1{
+     flex-basis: 60%;
+     margin-bottom: 130px;
+    }
+    .proccess-2{
+      margin-top: 30px;
+      flex-basis: 40%;
+    }
+    .proccess-1 img{
+      width:100%;
+      
+    }
+    .proccess-main h3{
+    text-align: center;
+     font-size: 30px;
+     color: rgb(36, 94, 94);
+     font-family: Monospace;
+    }
+    .proccess-main hr{
+        width: 160px;
+        margin-left: 600px;
+        margin-top: 5px;
+       border: 1px solid red;
+       margin-bottom: 80px;
+    }
+    
+    .proccess-2 p{
+      line-height: 1.5;
+      font-family: serif;
+      font-size: 18px;
+      margin-left: 20px;
+    }
+    /*media*/
+    @media(max-width:708.021px){
+      .proccess{
+        flex-direction: column;
+      }
+      .proccess-main hr{
+        display: none;
+      }
+      .proccess-1{
+      flex-basis: 100%;
+      margin: 20px;
+      order: 2;
+      }
+      .proccess-2{
+    flex-basis: 100%;
+      }
+    }

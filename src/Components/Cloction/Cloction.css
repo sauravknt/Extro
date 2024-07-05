@@ -1,0 +1,73 @@
+.clactionp {
+    background: rgb(245, 244, 243);
+    margin-bottom:100px;
+    
+}
+.clactionp p{
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 40px;
+    font-family: oblique;
+    color: rgba(194, 165, 39, 0.829);
+   
+}
+.clactions{
+margin: 20px auto;
+width: 95%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+.claction img{
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+.claction{
+    flex-basis: 32%;
+    position: relative;
+}
+.caption{
+    border-radius: 5px;
+    position: absolute ;
+    top: 0;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    background:rgba(239, 239, 240, 0.589);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+    opacity: 0;
+    padding-top: 70px;
+    transition: 0.4s;
+}
+/*.caption h3{
+    font-family: Copperplate, Papyrus, fantasy;
+    font-size: 25px;
+    
+}*/
+.caption img{
+    width: 130px;
+    margin-bottom: 10px;
+}
+.claction:hover .caption{
+    opacity: 1;
+    padding-top: 0;
+    
+}
+
+@media (max-width:708.021px){
+    .clactions{
+        flex-direction: column;
+        top: 0;
+    }
+    .claction{
+        flex-basis: 100%;
+        margin: 20px;
+    }
+}

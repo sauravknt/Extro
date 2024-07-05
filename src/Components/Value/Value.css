@@ -1,0 +1,51 @@
+
+.vailu{
+    width: 97%;
+    margin: 10px;
+    width:60%;
+    margin-bottom: 40px;
+    
+}
+.vailu b{
+    margin-left: 380px;
+    margin-top: 20px;
+    border-bottom: 1px solid red;
+    font-size: 38px;
+   color: rgb(36, 94, 94);
+   font-family: Monospace;
+}
+.vailu h3{
+    margin-top: 20px;
+    text-align: center;
+    line-height: 1.4;
+    font-size: 20px;
+    font-family: oblique;
+    
+}
+.values{
+    margin-top: 30px;
+    background-color: rgb(39, 37, 34);
+    color: aliceblue;
+    border-radius: 3px;
+    
+}
+.values p{
+    margin: 40px;
+    text-align: center;
+    line-height: 1.8;
+    font-family: serif;
+    font-size: 20px;
+}
+.valuess p{
+    text-align: center;
+    line-height: 1.8;
+    font-family: serif;
+    font-size: 20px;
+    margin-top: 30px;
+}
+/*media*/
+@media(max-width:708.021px){
+    .vailu{
+      display: none;
+    }
+}

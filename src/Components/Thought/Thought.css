@@ -1,0 +1,36 @@
+.thought-main{
+    width: 95%;
+    margin: 30px;
+    margin-top: 30px;
+    height:50vh;
+}
+.thought-main h4{
+    font-size: 30px;
+    font-family: Monospace;
+    color: rgba(194, 165, 39, 0.829);
+    text-align: center;
+}
+.thought{
+    margin-top: 50px;
+}
+.thought h3{
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 1.4;
+    font-size: 20px;
+    font-family: oblique;
+   color: rgb(36, 94, 94);
+}
+.thought p{
+    text-align: center;
+    line-height: 1.8;
+    font-family: serif;
+    font-size: 20px;
+    margin: 10px;
+}
+/*media*/
+@media(max-width:708.021px){
+    .thought h3 p{
+      justify-content: baseline;
+    }
+}

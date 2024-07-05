@@ -1,0 +1,20 @@
+.aliveitem{
+    cursor: pointer;
+    width: 73%;
+    height: 52vh;
+    margin-bottom: 30px;
+    
+    
+}
+.aliveitem:hover{
+    transform: scale(1.05);
+    transition: 0.6s;
+    background-color: rgba(124, 116, 107, 0.616);
+}
+
+.aliveitem p{
+    color:black;
+    margin-left: 60px;
+    font-size: 18px;
+    font-family: oblique;
+}
